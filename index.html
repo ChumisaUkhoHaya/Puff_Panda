@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puff Panda | Premium Cannabis</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for the rounded, premium look -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- MANDATORY AGE GATE (South African Compliance) -->
+    <div id="age-gate" class="glass-modal">
+        <div class="glass-card age-gate-card">
+            <h1>Puff Panda</h1>
+            <h2>Are you 18 years or older?</h2>
+            <p>You must be of legal age to enter. By entering, you agree that you are using these products for private, lawful use in South Africa.</p>
+            <div class="age-buttons">
+                <button id="enter-btn" class="primary-btn">Enter</button>
+                <button id="exit-btn" class="secondary-btn">Exit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN WEBSITE CONTENT -->
+    <main id="main-content" style="display: none;">
+        
+        <!-- NAVBAR -->
+        <nav class="glass-nav">
+            <div class="logo">Puff Panda</div>
+            <ul class="nav-links">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Strains</a></li>
+                <li><a href="#">Learn</a></li>
+            </ul>
+            <button class="primary-btn nav-btn">Cart (0)</button>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <header class="hero">
+            <div class="glass-card hero-card">
+                <h1>Rooted in Earth.<br>Designed for the Future.</h1>
+                <p>Premium, organic cannabis delivered to your door. Experience the calm.</p>
+                <button class="primary-btn">Explore the Collection</button>
+            </div>
+        </header>
+
+        <!-- PRODUCT GRID -->
+        <section class="products-section">
+            <h2>Top Selling Strains</h2>
+            <div class="product-grid">
+                
+                <!-- Product 1 -->
+                <div class="glass-card product-card">
+                    <div class="product-image" style="background: url('https://images.unsplash.com/photo-1594950314814-6b89f6b2b319?auto=format&fit=crop&q=80&w=400') center/cover;"></div>
+                    <div class="product-info">
+                        <h3>Blue Dream</h3>
+                        <span class="strain-type">Hybrid</span>
+                        <p>THC: 24%</p>
+                        <div class="product-bottom">
+                            <span class="price">R 350.00 / 3.5g</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="glass-card product-card">
+                    <div class="product-image" style="background: url('https://images.unsplash.com/photo-1600515348473-81561f13bc29?auto=format&fit=crop&q=80&w=400') center/cover;"></div>
+                    <div class="product-info">
+                        <h3>OG Kush</h3>
+                        <span class="strain-type">Indica</span>
+                        <p>THC: 22%</p>
+                        <div class="product-bottom">
+                            <span class="price">R 320.00 / 3.5g</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="glass-card product-card">
+                    <div class="product-image" style="background: url('https://images.unsplash.com/photo-1584912534960-19f4a4c32678?auto=format&fit=crop&q=80&w=400') center/cover;"></div>
+                    <div class="product-info">
+                        <h3>Durban Poison</h3>
+                        <span class="strain-type">Sativa</span>
+                        <p>THC: 20%</p>
+                        <div class="product-bottom">
+                            <span class="price">R 300.00 / 3.5g</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="glass-card product-card">
+                    <div class="product-image" style="background: url('https://images.unsplash.com/photo-1556928045-16f7f50be0f3?auto=format&fit=crop&q=80&w=400') center/cover;"></div>
+                    <div class="product-info">
+                        <h3>Vegan Fruit Chews</h3>
+                        <span class="strain-type">Edible</span>
+                        <p>100mg THC</p>
+                        <div class="product-bottom">
+                            <span class="price">R 180.00</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FOOTER & LEGAL -->
+        <footer class="glass-footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>Puff Panda</h2>
+                    <p>Elevate your state of mind.</p>
+                </div>
+                <div class="legal-info">
+                    <h3>Important Legal Information</h3>
+                    <p><strong>Private Use Only:</strong> Products sold are intended for private, personal use by adults (18+). Commercial dealing is strictly prohibited.</p>
+                    <p>This product has not been evaluated by SAHPRA to diagnose, treat, or cure any disease.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Puff Panda. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
